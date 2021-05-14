@@ -2,7 +2,8 @@ import requests
 url="https://api.coindesk.com/v1/bpi/currentprice.json"
 returnedData=requests.get(url)
 bitcoindict=returnedData.json()
-print( "Today bitcoin price in " + str(bitcoindict['bpi']['USD']['description']) + " is : " + str(bitcoindict['bpi']['USD']['rate_float']))
+for item in bitcoindict["bpi"]:
+ print( "Today bitcoin price in " + item["USD"] + " is : " + item["USD"])
 
 
 ''' {"time":

@@ -1,3 +1,7 @@
+# collatz.py
+# This program 
+# Author: Fatima Zeino
+
 val = int(input("enter any positive integer "))
 
 print (val)

@@ -1,4 +1,6 @@
+# sendemail.py
 # send an email via gmail
+# Author Fatima Zeino
 
 import smtplib
 
