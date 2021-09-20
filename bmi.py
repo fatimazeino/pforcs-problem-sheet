@@ -1,10 +1,5 @@
 # bmi.py
-# This program takes height in cm 
-# convert height to m
-# squraed height 
-# take weight
-# weight divided by  height in squared.
-# take two numbers after decimal point
+# This calculates somebody's Body Mass Index (BMI)
 # Author: Fatima Zeino
 
 height = float(input("Enter yor height in centimaters "))
