@@ -1,5 +1,5 @@
 # testbulletproof.py
-# This program 
+# This program test bulleproof class and response to some invalid input entered
 # Author: Fatima Zeino
 
 import bulletproof as bp
