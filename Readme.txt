@@ -12,3 +12,8 @@ sendemail.py
  login to Gmail using smtplib and sing in with sander account
  than sends the massege using server.sandemail function
         -----------------------------------------------------
+bitcoin.py
+ This program get bitcoinprice url as a json file
+  and sorted it in a dict object
+  and used for loop to access to it attribute (currency and price)
+        -----------------------------------------------------

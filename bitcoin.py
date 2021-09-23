@@ -1,13 +1,14 @@
 # bitcoin.py
-# This program 
+# This program outputs all the price in the three currencies
 # Author: Fatima Zeino
 
 import requests
 url="https://api.coindesk.com/v1/bpi/currentprice.json"
 returnedData=requests.get(url)
 bitcoindict=returnedData.json()
-for item in bitcoindict["bpi"][]:
- print( "Today bitcoin price is {} ".format(item['']))
+#print(bitcoindict)
+for item in bitcoindict["bpi"]:
+ print ("Today bitcoin price in {} is {} ".format(bitcoindict["bpi"][item]["code"], bitcoindict["bpi"][item]["rate"]))
 
 
 ''' {"time":
