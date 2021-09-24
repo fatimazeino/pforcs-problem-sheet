@@ -10,9 +10,6 @@ import os.path
 filename = sys.argv[-1]
 #print(filename)
 
-if not os.path.isfile(filename):
-    print("File does not exist")
-
 def readNumber():
     try:
         with open(filename) as f:
@@ -21,8 +18,7 @@ def readNumber():
     except IOError:
         return 0
 
-
-print("the number of e\'s in the text file are ", readNumber())
-
-
-
+if not os.path.isfile(filename):
+ print("File does not exist")
+else :
+ print("the number of e\'s in the text file are ", readNumber())
