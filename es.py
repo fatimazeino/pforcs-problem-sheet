@@ -19,6 +19,6 @@ def readNumber():
         return 0
 
 if not os.path.isfile(filename):
- print("File does not exist")
+ print("File doesn't exist")
 else :
  print("the number of e\'s in the text file are ", readNumber())
