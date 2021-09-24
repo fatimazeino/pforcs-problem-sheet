@@ -17,3 +17,10 @@ bitcoin.py
   and sorted it in a dict object
   and used for loop to access to it attribute (currency and price)
         -----------------------------------------------------
+collatz.pyand
+ Asks the user to input any positive integer.
+ the value goes to while loop until it become one and print at the end.
+ At each step in while loop calculate the next value by taking the current value and,
+ If it is even, divide it by two and print it,
+ but if it is odd, multiply it by three and add one and print it.
+        -------------------------------------------------------

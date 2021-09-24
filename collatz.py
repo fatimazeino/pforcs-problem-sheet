@@ -1,5 +1,5 @@
 # collatz.py
-# This program 
+# This program outputs the successive values of the some calculation
 # Author: Fatima Zeino
 
 val = int(input("enter any positive integer "))
@@ -15,4 +15,4 @@ while val != 1 :
         val = int (( val * 3 ) + 1)
         print (val)
 
-print("the end")
+print("The end")
