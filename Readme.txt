@@ -36,9 +36,14 @@ es.py
  and print the number.   
        ---------------------------------------------------------
 extract-url.py
-
-
+ This program got all the urls from log file using url experssion
+ then I splited the urls using ? character to split the url to page and query(parameters) 
+ then I put the query string paramerts in a dic 
+ then I built the file dic as requested
        ---------------------------------------------------------
 plottask.py
-this program saves a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in png picture
-the x point take from the range [0, 4] which is requied to import matplotlib.pyplot and numpy libraries 
+ This program saves a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in png picture
+ the x point take from the range [0, 4]
+ this programm required to import matplotlib.pyplot and numpy libraries 
+       ---------------------------------------------------------
+
