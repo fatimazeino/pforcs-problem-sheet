@@ -1,5 +1,5 @@
 # bulletproof.py
-# This program 
+# This program  return the average of the numbers upto and including the toIndex in the aList
 # Author: Fatima Zeino
 
 import logging
@@ -8,6 +8,8 @@ import logging
 def listEnter():
     theList = []
     listLen = int(input("Enter list's length : "))
+    if listLen < 0:
+     raise ValueError("list lenght must be > 0")
     for i in range(0,listLen):
       element = float(input("Enter item : "))
       theList.append(element)

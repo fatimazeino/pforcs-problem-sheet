@@ -55,3 +55,8 @@ pandastask.py
  finally creates a histogram plot to present result
        ---------------------------------------------------------
 bulletproof.py
+ this program have a listEnter fuction so the user can enter a list
+ and IndexEnter function to enter any number 
+ and averageTo function that take the list and the index, 
+ and return the averge and add the index to the list
+ the program print a error massege if list lenght or any item list or the index in not a number
