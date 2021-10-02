@@ -1,5 +1,5 @@
 # pandastask.py
-# This program 
+# This program finds which sessionId downloaded the most data
 # Author: Fatima Zeino
 
 import pandas as pd
@@ -26,9 +26,8 @@ print(df)
 
 df['time'] = df['time'].apply(lambda x: re.search('[\w:/]+', x).group())
 df['time'] = pd.to_datetime(df['time'], format='%d/%b/%Y:%H:%M:%S')
-print(df['time'])
+#print(df['time'])
 
-#dfSessionId = df['url'].apply(lambda x: re.search('f\?p=101:1:(\d+):', x))
 df.insert(2, 'Session Id', df['url'].apply(lambda x: re.search('f\?p=101:1:(\d+):', x)) , False)
 #print(df['Session Id'])
 
